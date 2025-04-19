@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "editorconfig.editorconfig",
+    "mikestead.dotenv",
+    "streetsidesoftware.code-spell-checker",
+    "ms-azuretools.vscode-docker",
+    "github.vscode-github-actions",
+    "github.copilot",
+    "github.copilot-chat",
+    "ms-vscode.vscode-typescript-next",
+    "vitest.explorer",
+    "cloudflare.cloudflare-workers-vscode",
+    "yoavbls.pretty-ts-errors",
+    "wix.vscode-import-cost",
+    "eamodio.gitlens",
+    "usernamehw.errorlens"
+  ]
+}

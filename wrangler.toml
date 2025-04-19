@@ -1,0 +1,46 @@
+name = "cloudflare-workers-typescript-template"
+main = "src/index.ts"
+compatibility_date = "2025-04-19"
+nodejs_compat = true
+
+# Specify the Cloudflare Workers environment
+# Uncomment the appropriate environment when ready to deploy
+# [env.production]
+# name = "cloudflare-workers-typescript-template-production"
+# route = { pattern = "example.com/*", zone_name = "example.com" }
+
+# [env.staging]
+# name = "cloudflare-workers-typescript-template-staging"
+# route = { pattern = "staging.example.com/*", zone_name = "example.com" }
+
+# [env.development]
+# name = "cloudflare-workers-typescript-template-development"
+
+# Configure KV Namespaces if needed
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "your-kv-namespace-id"
+
+# Configure Durable Objects if needed
+# [[durable_objects.bindings]]
+# name = "MY_DURABLE_OBJECT"
+# class_name = "MyDurableObject"
+
+# Configure environment variables
+# [vars]
+# MY_VARIABLE = "value"
+
+# Configure secrets (do not commit actual secrets)
+# [secrets]
+# MY_SECRET
+
+# Configure R2 buckets if needed
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# Configure D1 databases if needed
+# [[d1_databases]]
+# binding = "MY_DB"
+# database_name = "my-database"
+# database_id = "your-database-id"
