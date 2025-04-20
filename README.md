@@ -24,7 +24,7 @@ A modern, fully-featured TypeScript template for Cloudflare Workers, optimized f
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/cloudflare-workers-typescript-template.git
+git clone https://github.com/RusDyn/cloudflare-workers-typescript-template.git
 cd cloudflare-workers-typescript-template
 
 # Install dependencies
